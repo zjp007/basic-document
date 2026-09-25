@@ -18,6 +18,19 @@ Packages/manifest.json
 Packages/packages-lock.json
 ProjectSettings/ProjectVersion.txt
 .idea/*
+
+# 忽略特定的巨大美术和视频文件夹
+/Assets/AK Studio Art/
+/Assets/Videos/
+/Assets/level2_model/
+
+# 忽略所有视频和大型模型后缀
+*.mp4
+*.mp4.meta
+*.fbx
+*.fbx.meta
+*.glb
+*.glb.meta
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
 *.blend1.meta
